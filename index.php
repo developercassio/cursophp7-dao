@@ -45,11 +45,22 @@
 	$aluno->insert();
 
 	*/
+/*
+	//Alterar um usuario
 	$usuario = new Usuario();
 
 	$usuario->loadById(3);
 
 	$usuario->update("professor","&534&");
+
+	echo $usuario;
+
+*/	
+	$usuario = new Usuario();
+
+	$usuario->loadById(4);
+
+	$usuario->delete();
 
 	echo $usuario;
 
